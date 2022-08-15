@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/nvim-autopairs",

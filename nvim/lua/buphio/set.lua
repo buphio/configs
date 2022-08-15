@@ -5,13 +5,13 @@ vim.opt.termguicolors = true
 vim.opt.nu = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = true
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "100"
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.wrap = false
 
 -- modes
--- vim.opt.cmdheight = 2
+vim.opt.cmdheight = 2
 vim.opt.showmode = false
 vim.opt.mouse = "a"
 
