@@ -7,19 +7,15 @@ custom_ayu_light.insert.a.bg = '#5f8700'
 custom_ayu_light.visual.a.bg = '#f08700'
 
 -- CUSTOM GRUVBOX DARK
-custom_gruvbox.normal.a.bg = '#5f8700'
-custom_gruvbox.normal.a.fg = '#0f3325'
+custom_gruvbox.normal.a.bg = '#92B40B'
 custom_gruvbox.insert.a.bg = '#005f87'
 custom_gruvbox.insert.a.fg = '#ffffff'
 
 require('lualine').setup {
     options = {
         icons_enabled = false,
-        theme = custom_ayu_light,
+        theme = 'gruvbox',
         component_separators = '',
         section_separators = '',
-        disabled_filetypes = {},
-        always_divide_middle = true,
-        globalstatus = false,
     }
 }

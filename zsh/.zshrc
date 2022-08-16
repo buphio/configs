@@ -12,7 +12,8 @@ precmd() {
 
 # prompt customization
 setopt prompt_subst
-prompt='%F{178}%2~%f %F{110}${vcs_info_msg_0_}%f> '
+prompt='%F{214}%~%f %F{192}${vcs_info_msg_0_}%f> '
+# fg: 178
 
 # pyenv configuration
 export PYENV_ROOT="$HOME/.pyenv"

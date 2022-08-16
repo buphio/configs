@@ -1,4 +1,4 @@
-vim.o.background = "light"
+vim.o.background = "dark"
 
 --require("gruvbox").setup({
 --    undercurl = true,
@@ -17,5 +17,6 @@ vim.o.background = "light"
 --    },
 --})
 
-vim.cmd("colorscheme PaperColor")
+vim.cmd("colorscheme base16-gruvbox-dark-hard")
 -- vim.cmd("hi normal guibg=NONE ctermbg=NONE")
+-- vim.cmd("hi EndOfBuffer guibg=NONE ctermbg=NONE")

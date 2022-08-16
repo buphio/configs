@@ -6,12 +6,11 @@
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
+    -- color schemes
     use 'ellisonleao/gruvbox.nvim'
-    use 'savq/melange'
-    use 'Shatur/neovim-ayu'
+    -- extensions
     use 'nvim-treesitter/nvim-treesitter'
     use 'nvim-lualine/lualine.nvim'
     use 'neovim/nvim-lspconfig'
-    use 'windwp/nvim-autopairs'
 end)
 
