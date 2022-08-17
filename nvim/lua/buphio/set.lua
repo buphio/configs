@@ -1,6 +1,9 @@
 -- color
 vim.opt.termguicolors = true
 
+-- syntax
+vim.opt.syntax = 'enable'
+
 -- lines
 vim.opt.nu = true
 vim.opt.relativenumber = true
