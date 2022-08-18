@@ -1657,7 +1657,7 @@
 	<key>SwitchPaneModifier</key>
 	<integer>9</integer>
 	<key>TabStyleWithAutomaticOption</key>
-	<integer>6</integer>
+	<integer>5</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>UseBorder</key>
