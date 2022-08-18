@@ -20,11 +20,12 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     -- editor enhancements
     use 'nvim-lualine/lualine.nvim'
-    use 'windwp/nvim-autopairs'
+    use { 'windwp/nvim-autopairs', require('nvim-autopairs').setup() }
+    use { 'NvChad/nvim-colorizer.lua', require('colorizer').setup() }
     -- language support
     use 'nvim-treesitter/nvim-treesitter'
+    use 'neovim/nvim-lspconfig'
     use 'rust-lang/rust.vim'
-
     if packer_bootstrap then
         require('packer').sync()
     end

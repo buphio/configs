@@ -15,7 +15,7 @@ vim.opt.syntax = 'enable'
 -- lines
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.cursorline = false
+vim.opt.cursorline = true
 vim.opt.colorcolumn = "100"
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
