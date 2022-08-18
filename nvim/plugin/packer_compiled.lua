@@ -69,30 +69,15 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["gruvbox.nvim"] = {
-    loaded = true,
-    path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["neovim-ayu"] = {
-    loaded = true,
-    path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/neovim-ayu",
-    url = "https://github.com/Shatur/neovim-ayu"
-  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
-  },
-  ["nvim-lspconfig"] = {
-    loaded = true,
-    path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -103,6 +88,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/Users/pbuchinger/.local/share/nvim/site/pack/packer/start/rust.vim",
+    url = "https://github.com/rust-lang/rust.vim"
   }
 }
 

@@ -1,11 +1,19 @@
+-- disable providers
+vim.g.loaded_python3_provider = 0
+vim.g.loaded_ruby_provider = 0
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_node_provider = 0
+
 -- color
 vim.opt.termguicolors = true
+vim.o.background = "dark"
+vim.cmd("colorscheme base16-gruvbox-dark-hard")
 
 -- syntax
 vim.opt.syntax = 'enable'
 
 -- lines
-vim.opt.nu = true
+vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = false
 vim.opt.colorcolumn = "100"
@@ -14,7 +22,6 @@ vim.opt.signcolumn = "yes"
 vim.opt.wrap = false
 
 -- modes
--- vim.opt.cmdheight = 2
 vim.opt.showmode = false
 vim.opt.mouse = "a"
 
