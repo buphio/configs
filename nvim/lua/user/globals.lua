@@ -1,5 +1,6 @@
--- disable providers
-vim.g.loaded_python3_provider = 0
+-- provider settings
+-- vim.g.loaded_python3_provider = 0
+vim.g.python3_host_prog = "/Users/pbuchinger/.venvs/pynvim/bin/python"
 vim.g.loaded_ruby_provider = 0
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_node_provider = 0
@@ -8,9 +9,8 @@ vim.g.loaded_node_provider = 0
 vim.opt.termguicolors = true
 vim.o.background = "dark"
 vim.cmd("colorscheme base16-gruvbox-dark-hard")
-
--- syntax
-vim.opt.syntax = 'enable'
+--vim.cmd("hi normal guibg=NONE ctermbg=NONE")
+--vim.cmd("hi EndOfBuffer guibg=NONE ctermbg=NONE")
 
 -- lines
 vim.opt.number = true

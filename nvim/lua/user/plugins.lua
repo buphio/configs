@@ -18,10 +18,15 @@ require('packer').init {
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
+    -- color schemes
+    use {"rockyzhang24/arctic.nvim", requires = {"rktjmp/lush.nvim"}}
+    use 'savq/melange'
+    use 'andersevenrud/nordic.nvim'
+    use 'Yazeed1s/minimal.nvim'
+    use 'mtdl9/vim-log-highlighting'
     -- editor enhancements
     use 'nvim-lualine/lualine.nvim'
     use { 'windwp/nvim-autopairs', require('nvim-autopairs').setup() }
-    use { 'NvChad/nvim-colorizer.lua', require('colorizer').setup() }
     -- language support
     use 'nvim-treesitter/nvim-treesitter'
     use 'neovim/nvim-lspconfig'

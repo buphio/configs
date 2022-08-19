@@ -11,6 +11,6 @@ require('lualine').setup {
         section_separators = '',
     },
     sections = {
-        lualine_b = {'branch'}
+        lualine_b = {'branch', 'diagnostics'}
     },
 }
