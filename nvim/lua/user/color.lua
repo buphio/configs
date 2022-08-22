@@ -1,3 +1,6 @@
+vim.opt.termguicolors = true
+vim.o.background = "dark"
+
 require("gruvbox").setup({
   undercurl = true,
   underline = true,
