@@ -6,11 +6,11 @@ custom_gruvbox.insert.a.fg = '#ffffff'
 require('lualine').setup {
     options = {
         icons_enabled = false,
-        theme = 'gruvbox',
+        theme = 'auto',
         component_separators = '',
         section_separators = '',
     },
     sections = {
-        lualine_b = {'branch', 'diagnostics'}
+        lualine_b = {'branch'}
     },
 }

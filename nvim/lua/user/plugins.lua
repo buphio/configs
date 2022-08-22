@@ -19,10 +19,7 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
     -- color schemes
-    use {"rockyzhang24/arctic.nvim", requires = {"rktjmp/lush.nvim"}}
-    use 'savq/melange'
-    use 'andersevenrud/nordic.nvim'
-    use 'Yazeed1s/minimal.nvim'
+    use 'ellisonleao/gruvbox.nvim'
     use 'mtdl9/vim-log-highlighting'
     -- editor enhancements
     use 'nvim-lualine/lualine.nvim'
