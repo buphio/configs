@@ -1,0 +1,15 @@
+{
+    // editor ---
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'IBM Plex Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [100],
+    "editor.lineNumbers": "relative",
+    "editor.cursorSurroundingLines": 8,
+    // terminal ---
+    "terminal.integrated.fontSize": 16,
+    // workbench ---
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.activityBar.visible": false,
+}
