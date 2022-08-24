@@ -1,15 +1,23 @@
 {
     // editor ---
     "editor.fontSize": 16,
-    "editor.fontFamily": "'IBM Plex Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.bracketPairColorization.enabled": false,
     "editor.minimap.enabled": false,
-    "editor.rulers": [100],
+    "editor.rulers": [80],
     "editor.lineNumbers": "relative",
     "editor.cursorSurroundingLines": 8,
+    "editor.renderWhitespace": "trailing",
     // terminal ---
     "terminal.integrated.fontSize": 16,
-    // workbench ---
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    // misc
+    "explorer.confirmDelete": false,
+    "telemetry.telemetryLevel": "off",
     "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "breadcrumbs.icons": false,
+    "git.enabled": false,
+    "editor.fontWeight": "500",
+    "workbench.colorTheme": "quietLight-plus-theme",
 }

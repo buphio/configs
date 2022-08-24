@@ -28,5 +28,3 @@ export PATH="$PATH:/Users/pbuchinger/.venvs/pylsp/bin"
 alias vi='nvim'
 alias ll='ls -l'
 alias la='ls -la'
-# alias tree='exa -T'
-alias flake8='source ~/.venvs/flake8/bin/activate'
