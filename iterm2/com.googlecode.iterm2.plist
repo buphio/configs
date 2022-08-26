@@ -1379,13 +1379,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.12941176470588237</real>
+				<real>0.15686274509803921</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.12549019607843137</real>
+				<real>0.15686274509803921</real>
 				<key>Red Component</key>
-				<real>0.11764705882352941</real>
+				<real>0.15686274509803921</real>
 			</dict>
 			<key>Background Image Mode</key>
 			<integer>2</integer>
@@ -1954,7 +1954,7 @@
 	<key>SwitchPaneModifier</key>
 	<integer>9</integer>
 	<key>TabStyleWithAutomaticOption</key>
-	<integer>5</integer>
+	<integer>4</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>UseBorder</key>
