@@ -12,10 +12,10 @@ vim.o.background = "dark"
 -- lines
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.cursorline = false
+vim.opt.cursorline = true
 vim.opt.colorcolumn = "100"
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
+--vim.opt.signcolumn = "yes"
 vim.opt.wrap = false
 
 -- modes
@@ -23,8 +23,8 @@ vim.opt.showmode = false
 vim.opt.mouse = "a"
 
 -- invisibles
-vim.opt.listchars:append({trail = '⋅'})
-vim.opt.list = true
+-- vim.opt.listchars:append({trail = '⋅'})
+-- vim.opt.list = true
 
 -- tabstops / spacing
 vim.opt.tabstop = 4

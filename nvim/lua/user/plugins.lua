@@ -24,6 +24,7 @@ return require('packer').startup(function(use)
     -- editor enhancements
     use 'nvim-lualine/lualine.nvim'
     use { 'windwp/nvim-autopairs', require('nvim-autopairs').setup() }
+    use 'ntpeters/vim-better-whitespace'
     -- language support
     use 'nvim-treesitter/nvim-treesitter'
     use 'neovim/nvim-lspconfig'
