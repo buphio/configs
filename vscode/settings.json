@@ -1,23 +1,28 @@
 {
-    // editor ---
+    // --- editor ---
     "editor.fontSize": 16,
-    "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Noto Sans Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.bracketPairColorization.enabled": false,
     "editor.minimap.enabled": false,
-    "editor.rulers": [80],
+    "editor.rulers": [90],
     "editor.lineNumbers": "relative",
+    "editor.fontWeight": "500",
     "editor.cursorSurroundingLines": 8,
-    "editor.renderWhitespace": "trailing",
-    // terminal ---
+    // --- terminal ---
     "terminal.integrated.fontSize": 16,
-    // misc
+    "terminal.integrated.fontWeight": "500",
+    "workbench.colorCustomizations": {
+        "editor.background": "#f7f7f7",
+        "editor.lineHighlightBackground": "#e0e0e0",
+        "statusBar.background": "#3f4a5b",
+        "tab.inactiveBackground": "#e8e8e8",
+    },
+    // --- misc ---
+    "breadcrumbs.icons": false,
     "explorer.confirmDelete": false,
+    "git.enabled": false,
     "telemetry.telemetryLevel": "off",
     "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "gruvbox-material-icon-theme",
-    "workbench.layoutControl.enabled": false,
-    "breadcrumbs.icons": false,
-    "git.enabled": false,
-    "editor.fontWeight": "500",
     "workbench.colorTheme": "quietLight-plus-theme",
+    "workbench.layoutControl.enabled": false,
 }
