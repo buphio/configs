@@ -1,8 +1,6 @@
--- settings
+require("user.color")
 require("user.globals")
 require("user.keymaps")
--- plugins
+require("user.lualine")
 require("user.plugins")
 require("user.treesitter")
-require("user.color")
-require("user.lualine")

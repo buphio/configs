@@ -28,7 +28,6 @@ return require('packer').startup(function(use)
     -- language support
     use 'nvim-treesitter/nvim-treesitter'
     use 'neovim/nvim-lspconfig'
-    use 'rust-lang/rust.vim'
     if packer_bootstrap then
         require('packer').sync()
     end
