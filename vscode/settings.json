@@ -1,20 +1,24 @@
 {
     // --- editor ---
-    "editor.fontSize": 16,
-    "editor.fontFamily": "'Noto Sans Mono', Menlo, Monaco, 'Courier New', monospace",
-    "editor.bracketPairColorization.enabled": false,
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'SF Mono', Monaco, 'Courier New', monospace",
+    //"editor.bracketPairColorization.enabled": false,
     "editor.minimap.enabled": false,
     "editor.rulers": [90],
     "editor.lineNumbers": "relative",
-    "editor.fontWeight": "500",
     "editor.cursorSurroundingLines": 8,
     // --- terminal ---
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontWeight": "500",
+    "terminal.integrated.fontSize": 15,
+    /* "workbench.colorCustomizations": {
+        "statusBar.background": "#3e3e3e"
+    }, */
     "workbench.colorCustomizations": {
+        "editorGroupHeader.tabsBackground": "#e8e8e8",
         "editor.background": "#f7f7f7",
-        "editor.lineHighlightBackground": "#e0e0e0",
-        "statusBar.background": "#3f4a5b",
+        "editor.foreground": "#303030",
+        "editor.lineHighlightBackground": "#e6e6e6",
+        "statusBar.foreground": "#303030",
+        "statusBar.background": "#e0e0e0",
         "tab.inactiveBackground": "#e8e8e8",
     },
     // --- misc ---
@@ -23,6 +27,7 @@
     "git.enabled": false,
     "telemetry.telemetryLevel": "off",
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "quietLight-plus-theme",
+    "workbench.editor.enablePreview": false,
     "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "quietLight-plus-theme",
 }
