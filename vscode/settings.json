@@ -1,33 +1,35 @@
 {
     // --- editor ---
-    "editor.fontSize": 15,
-    "editor.fontFamily": "'SF Mono', Monaco, 'Courier New', monospace",
-    //"editor.bracketPairColorization.enabled": false,
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.bracketPairColorization.enabled": false,
     "editor.minimap.enabled": false,
     "editor.rulers": [90],
     "editor.lineNumbers": "relative",
     "editor.cursorSurroundingLines": 8,
     // --- terminal ---
-    "terminal.integrated.fontSize": 15,
-    /* "workbench.colorCustomizations": {
-        "statusBar.background": "#3e3e3e"
-    }, */
+    "terminal.integrated.fontSize": 16,
+    // --- workbench ---
+    "workbench.activityBar.visible": false,
+    "workbench.editor.enablePreview": false,
     "workbench.colorCustomizations": {
-        "editorGroupHeader.tabsBackground": "#e8e8e8",
-        "editor.background": "#f7f7f7",
-        "editor.foreground": "#303030",
-        "editor.lineHighlightBackground": "#e6e6e6",
-        "statusBar.foreground": "#303030",
-        "statusBar.background": "#e0e0e0",
-        "tab.inactiveBackground": "#e8e8e8",
+        "[quietLight-plus-theme]": {
+            "statusBar.background": "#26517b",
+            "editor.lineHighlightBackground": "#ececec"
+        },
+        "[Default Dark+]": {
+            "statusBar.background": "#2d363d",
+        },
+        "[Darcula Theme from IntelliJ]": {
+            "statusBar.background": "#2d363d",
+            "editorLineNumber.activeForeground": "#d69a00"
+        }
     },
     // --- misc ---
     "breadcrumbs.icons": false,
     "explorer.confirmDelete": false,
     "git.enabled": false,
     "telemetry.telemetryLevel": "off",
-    "workbench.activityBar.visible": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": true,
     "workbench.colorTheme": "quietLight-plus-theme",
 }

@@ -13,7 +13,7 @@ precmd() {
 # prompt customization
 setopt prompt_subst
 # prompt='%F{68}$%f %F{214}%~%f %F{192}${vcs_info_msg_0_}%f'
-prompt='%F{109}$%f %U%F{172}%~%f%u %F{148}${vcs_info_msg_0_}%f'
+prompt='%F{109}$%f %U%~%u %F{22}${vcs_info_msg_0_}%f'
 # fg: 178
 
 # pyenv configuration
