@@ -1,35 +1,21 @@
 {
     // --- editor ---
+    "editor.cursorSurroundingLines": 8,
     "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 16,
-    "editor.bracketPairColorization.enabled": false,
+    "editor.fontSize": 15,
+    "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.rulers": [90],
-    "editor.lineNumbers": "relative",
-    "editor.cursorSurroundingLines": 8,
     // --- terminal ---
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 15,
     // --- workbench ---
     "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "IDEA like light Theme",
     "workbench.editor.enablePreview": false,
-    "workbench.colorCustomizations": {
-        "[quietLight-plus-theme]": {
-            "statusBar.background": "#26517b",
-            "editor.lineHighlightBackground": "#ececec"
-        },
-        "[Default Dark+]": {
-            "statusBar.background": "#2d363d",
-        },
-        "[Darcula Theme from IntelliJ]": {
-            "statusBar.background": "#2d363d",
-            "editorLineNumber.activeForeground": "#d69a00"
-        }
-    },
+    "workbench.layoutControl.enabled": false,
     // --- misc ---
     "breadcrumbs.icons": false,
     "explorer.confirmDelete": false,
     "git.enabled": false,
     "telemetry.telemetryLevel": "off",
-    "window.commandCenter": true,
-    "workbench.colorTheme": "quietLight-plus-theme",
 }
