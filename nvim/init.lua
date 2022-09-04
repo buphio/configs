@@ -1,4 +1,3 @@
-require("user.color")
 require("user.globals")
 require("user.keymaps")
 require("user.lualine")
