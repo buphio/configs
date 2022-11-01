@@ -1,6 +1,7 @@
 # configs
 
-All my used configs in one place.
+All my configs in one place.
 
 - nvim
 - iterm2
+- vscode
