@@ -1,31 +1,14 @@
-// property, method #B5CEA8
 {
-    // --- editor ---
-    //"editor.bracketPairColorization.enabled": false,
-    "editor.cursorSurroundingLines": 8,
-    "editor.fontFamily": "'SF Mono', Monaco, 'Courier New', monospace",
-    "editor.fontSize": 15,
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
     "editor.guides.indentation": false,
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.rulers": [90],
-    // --- custom colors ---
-    "editor.semanticTokenColorCustomizations": {
-        "[Visual Studio Dark]": {
-            "rules": {
-                "property": "#a6c992",
-                "method": "#a6c992",
-            },
-        },
-    },
-    // --- others ---
-    "breadcrumbs.icons": false,
     "explorer.confirmDelete": false,
-    "git.enabled": false,
     "telemetry.telemetryLevel": "off",
-    "terminal.integrated.fontSize": 15,
-    "workbench.editor.enablePreview": false,
+    "terminal.integrated.fontSize": 16,
+    "workbench.activityBar.visible": false,
     "workbench.layoutControl.enabled": false,
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Panda Syntax",
 }
