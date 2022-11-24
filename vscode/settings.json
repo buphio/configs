@@ -1,14 +1,17 @@
 {
+    "breadcrumbs.icons": false,
     "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 16,
     "editor.guides.indentation": false,
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "trailing",
     "editor.rulers": [90],
     "explorer.confirmDelete": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 16,
     "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Slime",
     "workbench.layoutControl.enabled": false,
-    "workbench.colorTheme": "Panda Syntax",
+    "workbench.startupEditor": "none",
 }
