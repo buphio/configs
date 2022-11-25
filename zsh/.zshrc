@@ -12,7 +12,7 @@ precmd() {
 
 # prompt customization
 setopt prompt_subst
-prompt='%B%F{109}$%f%b %U%~%u %B${vcs_info_msg_0_}%b'
+prompt='%B%F{109}$%f%b %F{yellow}%~%f %B${vcs_info_msg_0_}%b'
 
 # aliases
 alias vi='vim'
