@@ -1,6 +1,7 @@
 albert.TabOut
+enkia.tokyo-night
 magicstack.MagicPython
-mechatroner.rainbow-csv
+ms-dotnettools.csharp
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
@@ -10,5 +11,4 @@ ms-toolsai.jupyter-renderers
 ms-toolsai.vscode-jupyter-cell-tags
 ms-toolsai.vscode-jupyter-slideshow
 shardulm94.trailing-spaces
-smlombardi.slime
 vscodevim.vim
